@@ -1,0 +1,11 @@
+kmux:
+  sink:
+    stream: knox-gateway
+
+# knox-gateway:
+#   server: "knox-gateway-dev.accuknox.com:3000"
+
+knox-gateway:
+  server: "localhost:3000"
+
+#knox-gateway-dev.accuknox.com:3000

@@ -1,0 +1,5 @@
+kmux:
+  vault: hashiVault
+
+vault:
+  server: "http://vault:8200"

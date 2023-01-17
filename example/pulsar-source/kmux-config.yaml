@@ -1,0 +1,18 @@
+kmux:
+  source:
+    stream: pulsar
+
+pulsar:
+  servers:
+    - "localhost:6650"
+  topic-prefix: persistent://public/default/
+  subscription: "kmux-sub-1"
+  encryption:
+    # TLS
+    ca-cert: /var/run/kmux/ca-cert.pem 
+  auth:
+    # mTLS
+    # `encryption` should be enabled and configured to use `auth`.
+    enable: false
+    cert: /var/run/kmux/cert.pem
+    key: /var/run/kmux/key.pem
