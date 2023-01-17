@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/accuknox/kmux"
-	"github.com/accuknox/kmux/config"
-	"github.com/accuknox/kmux/stream"
+	kmux "github.com/ashutosh-the-beast/newknox"
+	"github.com/ashutosh-the-beast/newknox/config"
+	"github.com/ashutosh-the-beast/newknox/stream"
 )
 
 type book struct {

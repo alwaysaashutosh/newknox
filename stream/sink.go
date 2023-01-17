@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/accuknox/kmux/config"
+	"github.com/ashutosh-the-beast/newknox/config"
 	"github.com/rs/xid"
 )
 

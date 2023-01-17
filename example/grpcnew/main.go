@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/accuknox/kmux/config"
 	"github.com/accuknox/knox-gateway/pkg/grpc/knoxgateway/pb"
+	"github.com/ashutosh-the-beast/newknox/config"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"
 )

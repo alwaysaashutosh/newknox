@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/accuknox/kmux/config"
+	"github.com/ashutosh-the-beast/newknox/config"
 
 	pb "github.com/accuknox/knox-gateway/pkg/grpc/knoxgateway/pb"
 	"github.com/rs/zerolog/log"

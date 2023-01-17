@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/accuknox/kmux/config"
 	"github.com/apache/pulsar-client-go/pulsar"
+	"github.com/ashutosh-the-beast/newknox/config"
 	"github.com/rs/zerolog/log"
 )
 
